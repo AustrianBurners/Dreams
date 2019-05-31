@@ -25,12 +25,12 @@ en:
   private: Private
   humans_credit_html: "The Dreams Platform started at Urban Burn, got subsumed by The Borderland and was then used for events all over the place. It has been heavily improved by our lovely team of Isreali burner devs. <br> Here are the humans who made the dreams platform possible (Refresh the page, Swipe to shuffle, Or use the arrow keys)"
   welcome_guest_title: Welcome to our Dreams
-  welcome_guest_text_html: "Hey friend! Welcome to the virtual drawing board of <b> The Borderland.</b> This is the place where we prototype the projects we'll realise during the week in the quarry. "
+  welcome_guest_text_html: "Hey friend! Welcome to the virtual drawing board of <b>Schloss Schönburn.</b> This is the place where we prototype the projects we'll realise during the week in the castle. If you're looking for the old dreams from 2018, they're <a href='http://austriandreamsarchive.herokuapp.com/'>safe and sound here</a>"
   welcome_user_title: "These are your Dreams, baby!"
-  welcome_user_text_html: "Dreams is the virtual drawing board of The Borderland. This is the place where we prototype, promote and collaborate on the projects we'll realise during the week in the quarry. Have a look around or create a dream of your own!"
+  welcome_user_text_html: "Dreams is the virtual drawing board of Schloss Schönburn. This is the place where we prototype, promote and collaborate on the projects we'll realise during the week in the castle. Have a look around or create a dream of your own! If you're looking for the old dreams from 2018, they're <a href='http://austriandreamsarchive.herokuapp.com/'>safe and sound here</a>"
   header_faq_link: "Have you read the FAQ?"
-  footer_left_html: "The Borderland is a participatory arts gathering where we explore the space between dream and reality. It is an empty container, open to your initiative. It is an invitation to play, to reflect, and to engage."
-  footer_right_html: The Borderland
+  footer_left_html: "Schloss Schönburn is a participatory arts gathering where we explore the space between dream and reality. It is an empty container, open to your initiative. It is an invitation to play, to reflect, and to engage."
+  footer_right_html: Schloss Schönburn
   footer_html: "This platform was originally written by Borderlings, Midburners and the Participio project. Dreams is open source and served with ❤ by the humans who made the system."
   errors_str: Errors
   search_title: Search
@@ -84,7 +84,7 @@ en:
   form_neighbors_guidetext_html: "What kind of Borderlings would you like as neighbors? Loud foxes, sleeping bears or obnoxious by zoology yet unnamed creatures? "
 
   form_artgrants_headline: Art grant information
-  form_artgrants_text_html: "<p>If you're not looking for an art grant, leave these fields blank.</p><p> Art grants are given by the Borderland community. Each Borderling has 10 grantlets to hand out. You can give a total of five grantlets to one project. Once a grantlet has been gifted to a dream, it can't be taken back.</p>"
+  form_artgrants_text_html: "<p>If you're not looking for an art grant, leave these fields blank.</p><p> Art grants are given by Schloss Schönburn community. Each Borderling has 10 grantlets to hand out. You can give a total of five grantlets to one project. Once a grantlet has been gifted to a dream, it can't be taken back.</p>"
   form_minigrants_realcurrency_label: "Minimum funding needed (in EUR):"
   form_minigrants_realcurrency_guidetext_html: "Minimum budget level, below which you won't be able to realise the project."
   form_maxigrants_realcurrency_label: "Maximum funding needed (in EUR):"
@@ -115,9 +115,9 @@ en:
   form_basics_safety_bag: Fields which are marked in ultra pink are required for the safety file. Most of them are not shown in the public dream page
   form_safetybag_headline: Safety file info
   form_safetybag_show_hide: Show / Hide Safety file info
-  form_safetybag_needs_to_fill: "Most dreams can skip this step. If your dream is a structure that is more than 50 m2 large or more than 3 meters high, it needs additional safety information and supporting documents. Show the safety section and fill in required details." 
+  form_safetybag_needs_to_fill: "Most dreams can skip this step. If your dream is a structure that is more than 50 m2 large or more than 3 meters high, it needs additional safety information and supporting documents. Show the safety section and fill in required details."
 
-  form_safetybag_description_html: "You must fill some safety information to meet municipality regulations. 
+  form_safetybag_description_html: "You must fill some safety information to meet municipality regulations.
     <br>Create a new safety item for each of the healines above, and add more if relevant or required by the safety team.
     <ul>
       <li>
@@ -151,14 +151,14 @@ en:
   remove_safety_item: Remove safety item
 
   flag_instruction_html: >
-    Any monsters you need to startle for this dream? Please check the <a href="https://talk.theborderland.se/d/zJY8uwNe/dreamiquette-guidelines-for-dreamers" style="color: rgb(235, 20, 120)">funding guidelines</a>. Anything in the budget that looks strange or wrong?
+    Any monsters you need to startle for this dream? Please check the <a href="http://www.burners.at/wetzlas/doku.php?id=dreams" style="color: rgb(235, 20, 120)">funding guidelines</a>. Anything in the budget that looks strange or wrong?
   monster_awoken: Monster awoken
   times_awoken: times
   dream_approved: You have approved this dream, click again to remove
   dream_unapproved: No issues! Dream looks good to me.
   startle_monster_instruction: This monster has been startled. Would you like to calm it down? Do this if the problem has been fixed or if the monster was unfairly awoken.
   calm_monster_instruction_html: >
-    Would you like to startle this monster? Only do this if there are breaches of the <a href="https://talk.theborderland.se/d/zJY8uwNe/dreamiquette-guidelines-for-dreamers" style="color: rgb(235, 20, 120)">budget guidelines</a>.
+    Would you like to startle this monster? Only do this if there are breaches of the <a href="http://www.burners.at/wetzlas/doku.php?id=dreams" style="color: rgb(235, 20, 120)">budget guidelines</a>.
   monster_action_reason: What is the reason?
   startle: Startle monster
   calm: Calm monster
@@ -188,11 +188,11 @@ en:
   coins_left: 'Available Grantlings:'
   currency: NIS
   how_can_i_help_title: "How can I help?"
-  how_can_i_help_title_desc_html: "In this page you will find all our dreamers current needs. Find a dream you'd like to join, and click" 
+  how_can_i_help_title_desc_html: "In this page you will find all our dreamers current needs. Find a dream you'd like to join, and click"
   how_can_i_help_page_description: "In this page you will find all our dreamers current needs. Find a dream you'd like to join, and click add my name\""
   created_new_dream: Yeah! You've created a dream. You can add info to your dream now or save and continue adding info in the future
   what_is_this_title: "What is this?"
-  what_is_this_text_html: "Hey friend! Welcome to the virtual drawing board of The Borderland. This is the place where we prototype the projects we'll realise during the week in the quarry. "
+  what_is_this_text_html: "Hey friend! Welcome to the virtual drawing board of Schloss Schönburn. This is the place where we prototype the projects we'll realise during the week in the quarry. "
   creation_info_headline: Details
   next_random_dream: Next random dream
   contact_name: Contact Name
@@ -217,7 +217,7 @@ en:
   upload_sketeches_headline: Upload safety plans
   upload_sketeches_guidetext_html: "This is where you upload compliant safety plans. Images must be smaller than 8 mb and be in jpg, png or gif format. To make your Dream look really awesome, make sure your images are in landscape format and larger than 1500x800 pixels."
   safety_headline: Safety details
-  safety_guidetext_html: "Very few Dreams need to submit any safety documentation, but if you are planning on building a structure that is more than 50 m2 large or 3 m tall, you need to supply some additional information. You also need to create compliant sketches of how your structure will be evacuated in case of fire." 
+  safety_guidetext_html: "Very few Dreams need to submit any safety documentation, but if you are planning on building a structure that is more than 50 m2 large or 3 m tall, you need to supply some additional information. You also need to create compliant sketches of how your structure will be evacuated in case of fire."
   safety_data_headline: Safety data
   form_safetybag_description_html: "You must fill some safety information to meet municipality regulations. <br>Create a new safety item for each of the healines above, and add more if relevant or required by the safety team. <ul> <li> <b>Usage:</b> How will the structure be used? One short sentence is enough, for example 'Party, chill and workshop space.' </li> <li> <b>Structure:</b> Describe the structure in one sentence, example 'Scaffolding covered with tarp'. </li> <li> <b>Producer:</b> Specify producer, example 'ACME' or 'Custom built on site'. </li> <li> <b>Area:</b> Footprint, for example '55 m2'. </li> <li> <b>Height:</b> In metres, for example '3 m'. </li> <li> <b>People:</b> Max amount of people allowed in structure, example 'Max 40 ppl'. </li> <li> <b>Anchor:</b> Materials and method used to anchor, example 'Military grade anchor-poles (60cm long, 3cm thick) hammered down'. </li> <li> <b>Responsible:</b> Name of crew-member responsible to authorities. </li> </ul>"
   form_safety_item_headline: Safety item headline
