@@ -33,7 +33,7 @@ class LoomioHandler
   def new_thread(name, description='')
     response = self.class.post(
       @@base_uri + @@threads_uri, 
-      body: {"discussion":{"title":name,"description":description,"group_id":@@group_id,"private":false,"forked_event_ids":[],"document_ids":[]}}.to_json,
+      body: {"discussion":{"title":name,"description":description,"group_id":(@@group_id).to_i,"private":false,"forked_event_ids":[],"document_ids":[]}}.to_json,
       headers: @headers
     )
     puts(response.value) # raises error if the request failed
