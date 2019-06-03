@@ -2,7 +2,7 @@ require 'httparty'
 
 class LoomioHandler
   include HTTParty
-  @@base_uri = ENV['LOOMIO_BASE_URL'].nil? ? 'https://talk.theborderland.se/' : ENV['LOOMIO_BASE_URL']
+  @@base_uri = ENV['LOOMIO_BASE_URL'].nil? ? 'https://loomio.sfinx-it.com/' : ENV['LOOMIO_BASE_URL']
   @@sessions_uri = 'api/v1/sessions'
   @@comments_uri = 'api/v1/comments'
   @@threads_uri = 'api/v1/discussions'

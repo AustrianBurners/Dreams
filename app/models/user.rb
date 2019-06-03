@@ -41,7 +41,7 @@ class User < ApplicationRecord
     #u.grants ||= 10 if u.roles.map(&:name).include?("Borderland 2019 Membership") # TODO multi event
 
 
-    # avatars: get https://talk.theborderland.se/api/v1/profile/{username}
+    # avatars: get https://loomio.sfinx-it.com/api/v1/profile/{username}
     # either loomio picture or gravatar
     u.save!
     u

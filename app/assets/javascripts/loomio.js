@@ -2,7 +2,7 @@ LoomioThreads = {}
 
 document.querySelectorAll("[loomio-thread]").forEach(function (el) {
     var threadInfo = {
-        endpoint: "https://talk.theborderland.se",
+        endpoint: "https://loomio.sfinx-it.com",
         discussionKey: el.getAttribute('loomio-thread')
     };
 
