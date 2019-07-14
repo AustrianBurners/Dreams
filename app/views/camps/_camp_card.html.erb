@@ -9,7 +9,7 @@
     <a href="<%= url_for(camp) %>">
         <div class="panel panel-info <%=camp.id%>">
             <div class="panel-body camp-index">
-                
+
                 <% if camp.images.any? %>
                     <%= image_tag(camp.images.first.attachment.url(:square), :class => "grow") %>
                 <% else %>
@@ -47,8 +47,10 @@
                                 <div class="budgetprogressbar" data-min="<%= camp.minbudget %>" data-max="<%= camp.maxbudget %>" data-value="<%= camp.grants_received %>"></div>
                           <% end %>
                       <% else %>
+                          <div class='hearts'>
+                              <span class='heart' id='heart1' data-animated-heart='<%= asset_path('hearts/heart_01.png')%>'></span>
+                          </div>
                           <h3 class='budget-info'><%= camp.grants_received %><br><%=t :grants_recieved %></h3>
-                          <div class="budgetprogressbar"></div>
                       <% end %>
 
                     <% end %>
