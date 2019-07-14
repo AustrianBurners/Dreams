@@ -134,6 +134,10 @@ $main-image-height: 550px;
         border-left: 1px solid rgba(255, 255, 255, 0.3);
       }
 
+      .budget-box .first{
+        border-left: none;
+      }
+
       h3 {
         font-size: 26px;
         font-weight: bold;
@@ -181,6 +185,7 @@ $main-image-height: 550px;
 
       margin: 0 10px;
       margin-bottom: 15px;
+      margin-left: 10px;
       font-size: large;
       font-weight: bold;
 
