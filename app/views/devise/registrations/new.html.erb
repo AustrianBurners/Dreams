@@ -14,18 +14,6 @@
       <%= f.email_field :email, autofocus: true, :class => "form-control" %>
     </div>
 
-    <% if app_setting("user_authentication_codes") %>
-
-      <div class="field">
-      <%= f.label :Membership_code, t(:registration_code) %><br />
-
-        <%=t :registration_text %>
-
-      <%= f.text_field :ticket_id, autocomplete: "off", :class => "form-control" %>
-    </div>
-
-      <% end %>
-
     <div class="field">
       <%= f.label :password %>
       <% if @minimum_password_length %>

@@ -17,8 +17,8 @@ defaults: &defaults
   granting: <%= ENV['GRANTING_ENABLED'] or true %>
   budgeting: <%= ENV['BUDGETING_ENABLED'] or true %>
   currency: <%= ENV['CURRENCY'] or "EUR" %>
-  # Only people with "Ticket records of phone and email can register"
-  user_authentication_codes: <%= ENV['USER_AUTHENTICATION_CODES'] or false %>
+  # Only people with "pretix tickets (email) can register"
+  user_authentication_pretix: <%= ENV['USER_AUTHENTICATION_PRETIX'] or false %>
   user_authentication_vs_tixwise: <%= ENV['TIXWISE'] or false %>
   add_to_list: <%= ENV['ADD_TO_LIST'] or true %>
   granting_active: <%= ENV['GRANTING_ACTIVE'] or true %>

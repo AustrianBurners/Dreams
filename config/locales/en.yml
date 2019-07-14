@@ -264,8 +264,8 @@ en:
   password_characters_minimum: "Minimum %{count} Characters"
   registration_text: If you've donated - enter the same phone number you used upon donation.
   registration_code: Phone number
-  invalid_membership_code: Can't find a user with that Email / Phone number. make sure you use the same email and phone you used when made the donation
   membership_code_registered: Membership code is already registered for another user. Perhaps you want to Login
+  invalid_membership_code: Can't find a user with that email. Make sure you use the same email as you used on pretix when you bought your membership.
   thanks_for_sending: "Thanks for sending %{grants} grant(s)"
   reset_pass_hello: Hey
   reset_pass_link_text: Someone has requested a link to change your password. You can do this through the link below.

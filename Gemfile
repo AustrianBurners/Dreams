@@ -59,6 +59,7 @@ gem 'aws-sdk-s3'
 gem 'rmagick', '~> 2.16.0'
 
 gem 'nokogiri'
+gem 'json'
 
 gem 'newrelic_rpm', '~> 6.0.0'
 

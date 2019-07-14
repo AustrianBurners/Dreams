@@ -464,6 +464,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   jquery-ui-rails
+  json
   kaminari
   kaminari-bootstrap
   newrelic_rpm (~> 6.0.0)
