@@ -69,7 +69,9 @@
 
                         <li>
                             <div class='budget-info'>
-                                <div class='budget-box first'>
+
+                                             <!-- style should not be here! HOW DO I RUN THE SASS COMPILER ? -->
+                                <div class='budget-box first' style='border-left: none;'>
                                     <h3><%= @camp.grants_received %></h3><br><h4><%=t :funded %></h4>
                                 </div>
                                 <% if app_setting("show_budget_min_max") %>
