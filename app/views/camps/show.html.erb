@@ -72,13 +72,14 @@
                                 <div class='budget-box'>
                                     <h3><%= @camp.grants_received %></h3><br><h4><%=t :funded %></h4>
                                 </div>
-                                <div class='budget-box'>
-                                    <h3><%= @camp.minbudget %></h3><br><h4><%=t :min_funded %></h4>
-                                </div>
-                                <div class='budget-box'>
-                                    <h3><%= @camp.maxbudget %></h3><br><h4><%=t :max_funded %></h4>
-                                </div>
-
+                                <% if app_setting("show_budget_min_max") %>
+                                    <div class='budget-box'>
+                                        <h3><%= @camp.minbudget %></h3><br><h4><%=t :min_funded %></h4>
+                                    </div>
+                                    <div class='budget-box'>
+                                        <h3><%= @camp.maxbudget %></h3><br><h4><%=t :max_funded %></h4>
+                                    </div>
+                                <% end %>
                                 <!-- If user grants are > 0, allow user to asign them -->
                                 <% if @camp.grantingtoggle %>
                                     <% if current_user && current_user.grants? && current_user.grants > 0 && !@camp.fullyfunded %>

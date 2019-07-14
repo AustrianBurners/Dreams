@@ -39,6 +39,7 @@ defaults: &defaults
   max_grants_per_user_per_dream: <%= ENV['MAX_GRANTS_PER_USER_PER_DREAM'] or 10 %>
   # Max art grant budget per dream
   maxbudget: <%= ENV['MAX_TOTAL_GRANTS'] or 1000000 %>
+  show_budget_min_max: <%= ENV['SHOW_BUDGET_MIN_MAX'] or true %>
 
   # SAML authentication settings
   saml_enabled: <%= ENV['SAML_CLIENT_ID'] or ENV['SAML_ENABLED'] or false %>
