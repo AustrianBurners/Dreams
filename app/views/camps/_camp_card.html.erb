@@ -35,16 +35,21 @@
                 <div class="labels">
                     <% if app_setting("granting_active") and camp.minbudget %>
 
-                        <h3 class='budget-info'><%= camp.grants_received %>/<%= camp.maxbudget %><br><%=t :funded %></h3>
+                      <% if app_setting("show_budget_min_max") %>
+                          <h3 class='budget-info'><%= camp.grants_received %>/<%= camp.maxbudget %><br><%=t :funded %></h3>
 
-                        <!-- Only if never got grants and not opened for granting -->
-                        <% if !camp.grantingtoggle and camp.grants_received <= 0%>
-                            <h3 class='budget-not-opened'>
-                                <%=t :granting_not_enabled %>
-                            </h3>
-                        <% else %>
-                            <div class="budgetprogressbar" data-min="<%= camp.minbudget %>" data-max="<%= camp.maxbudget %>" data-value="<%= camp.grants_received %>"></div>
-                        <% end %>
+                          <!-- Only if never got grants and not opened for granting -->
+                          <% if !camp.grantingtoggle and camp.grants_received <= 0%>
+                              <h3 class='budget-not-opened'>
+                                  <%=t :granting_not_enabled %>
+                                </h3>
+                          <% else %>
+                                <div class="budgetprogressbar" data-min="<%= camp.minbudget %>" data-max="<%= camp.maxbudget %>" data-value="<%= camp.grants_received %>"></div>
+                          <% end %>
+                      <% else %>
+                          <h3 class='budget-info'><%= camp.grants_received %><br><%=t :grants_recieved %></h3>
+                          <div class="budgetprogressbar"></div>
+                      <% end %>
 
                     <% end %>
                 </div>
@@ -55,6 +60,6 @@
             </div>
 
         </div>
-        
+
     </a>
 </div>
