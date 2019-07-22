@@ -78,13 +78,13 @@ en:
   form_recycling_guidetext_html: "Where do your materials come from? Are they reusable? What will happen with them after the event?"
   form_plan_label: Team and plan
   form_plan_guidetext_html: "What does your team look like and what is your schedule?"
-  form_cocreation_label: "How can other Borderlings co-create with you?"
+  form_cocreation_label: "How can other Schönburners co-create with you?"
   form_cocreation_guidetext_html: "How can someone be a part of this project?"
   form_neighbors_label: "Who would your perfect neighbors be?"
-  form_neighbors_guidetext_html: "What kind of Borderlings would you like as neighbors? Loud foxes, sleeping bears or obnoxious by zoology yet unnamed creatures? "
+  form_neighbors_guidetext_html: "What kind of Schönburners would you like as neighbors? Loud fairies, sleeping bears or obnoxious by zoology yet unnamed creatures? "
 
   form_artgrants_headline: Art grant information
-  form_artgrants_text_html: "<p>If you're not looking for an art grant, leave these fields blank.</p><p> Art grants are given by Schloss Schönburn community. Each Borderling has 10 grantlets to hand out. You can give a total of five grantlets to one project. Once a grantlet has been gifted to a dream, it can't be taken back.</p>"
+  form_artgrants_text_html: "<p>If you're not looking for an art grant, leave these fields blank.</p><p> Art grants are given by Schloss Schönburn community. Each Schönburner has 10 grantlets to hand out. You can give a total of five grantlets to one project. Once a grantlet has been gifted to a dream, it can't be taken back.</p>"
   form_minigrants_realcurrency_label: "Minimum funding needed (in EUR):"
   form_minigrants_realcurrency_guidetext_html: "Minimum budget level, below which you won't be able to realise the project."
   form_maxigrants_realcurrency_label: "Maximum funding needed (in EUR):"
@@ -108,7 +108,7 @@ en:
   form_program_english: English
   form_program_dreamer: Artist Name / Artist Group name
   form_program_description: Describe your idea in 100 words or less.
-  form_program_activity: "A special activity, show, ceremony or anything you may have in line regarding the art installation during the event to which you may want to invite your fellow Borderlings."
+  form_program_activity: "A special activity, show, ceremony or anything you may have in line regarding the art installation during the event to which you may want to invite your fellow Schönburners."
   form_program_activity_desc: "Please specidy the day, time, name of activity and wether it is a single activity or a reoccuring one"
   form_congratulations_html: Congrads. You've reached your "lowest". From here you can only fly up.
 
@@ -182,7 +182,7 @@ en:
   i_gift_thee_grants: Donate to dream
   no_granting_yet: No granting for this dream yet!
   donate_title: Oh Wow! this thing you are about to do...
-  donate_content: There are many ways to help your fellow Borderlings realise their dreams. Here you are invited to donate grantlets to this dream.
+  donate_content: There are many ways to help your fellow Schönburners realise their dreams. Here you are invited to donate grantlets to this dream.
   donate_text: Donate
   coins_text: Grantlet
   coins_left: 'Available Grantlings:'
@@ -273,7 +273,7 @@ en:
   reset_pass_wont_change: Your password won't change until you access the link above and create a new one.
   cant_send_less_then_one: One cannot send less than 1 grants
   dream_need_to_have_max_budget: Dream needs to have maximum budget. please contact dreamer or dream guides
-  reached_max_for_dream: Sorry, we've already reached to max budget for Dreams this year – early Borderling gets the bird!
+  reached_max_for_dream: Sorry, we've already reached to max budget for Dreams this year – early Schönburner gets the bird!
   exceeds_max_grants_per_user_for_this_dream: "You cannot spend more than %{max_grants_per_user_per_dream} grants on one dream"
   security_more_grants: "Security error cannot grant more then available grants. you tried gifting %{granted} grants. you have %{current_user_grants}. nice try."
   security_cant_delete_dreams_you_dont_own: One cannot delete dreams he dont own - hacker come join us

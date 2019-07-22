@@ -64,7 +64,7 @@ he:
       אומצה על-ידי לשכת החלומות מידברנרות, נכתבה ב<a href='https://github.com/midburn/dreams'>קוד פתוח</a>
       ומוגשת ב <span>❤</span> <a href='http://dreams.midburn.org/pages/humans'>האנשים שיצרו את המערכת</a>.
       <br /><a href='http://midburn.org/he-terms-and-privacy/'>תנאי שימוש באתר ומדיניות פרטיות</a>"
-  
+
   errors_str: "שגיאות"
 
   search_title: "חיפוש"
@@ -208,7 +208,7 @@ he:
   form_dream_scholarship_post_desc: "לנוחיותכם שוב לינקים שימושיים:"
   form_dream_scholarship_post_desc_criterions: "קריטריונים"
   form_dream_scholarship_post_desc_faq: "שאלות נפוצות"
-  
+
   form_click_to_edit_html: "<a>לחצי בכדי לערוך</a>"
 
   form_safety_head: "תיק הבטיחות"
@@ -247,7 +247,7 @@ he:
   form_program_activity_desc: "יש לציין יום, שעה, שם הפעילות, האם מדובר בפעילות חד פעמית או חוזרת"
 
   form_congratulations_html: "מברוק. הגעת הכי נמוך שאפשר.<br>מכאן רק אפשר לעוף."
-  
+
   form_location_header: "הכנה לשטח"
   form_location_info: "מיקום והצבה בפלאיה"
   form_location_info_desc: "זה המקום לבקש ולהציף בפירוט את המיקום האידאלי מבחינתכם, כדי שנוכל להביאו לנקודה הכי טובה בפלאייה. שימו לב שמידות המיצב, הפעלת סאונד, צריכת החשמל ומאפייני המיצב משפיעים גם הם על הצבתו והשדות הרלוונטיים מעודכנים"
@@ -409,7 +409,7 @@ he:
 
   cant_send_less_then_one: "לא ניתן לשלוח פחות מלב אחד"
   dream_need_to_have_max_budget: "החלום צריך תחילה להגדיר מקסימום תקציב. אנא פנה לבעל החלום ואו למדריכים החלומות"
-  reached_max_for_dream: "Sorry, we've already reached to max budget for Dreams this year – early Borderling gets the bird!"
+  reached_max_for_dream: "Sorry, we've already reached to max budget for Dreams this year – early Schönburner gets the bird!"
   exceeds_max_grants_per_user_for_this_dream: You cannot spend more than %{max_grants_per_user_per_dream} grants on one dream
   security_more_grants: "שגיאת מציאות. לא ניתן לתת יותר לבבות ממה שיש לך כרגע. ניסית לתת %{granted} ויש לך %{current_user_grants}. נסיון יפה."
   security_cant_delete_dreams_you_dont_own: "שגיאה - אתה לא יכול למחוק חלום שלא שייך לך - האקר הצטרף אלינו"
