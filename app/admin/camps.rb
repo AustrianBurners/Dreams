@@ -32,9 +32,10 @@ ActiveAdmin.register Camp do
     end
   end
 
+  permit_params :guide, :admin, :grants
 
 
-  permit_params do |params|
-    Camp.columns.map(&:name) - %w(id updated_at created_at)
-  end
+#  permit_params do |params|
+#    Camp.columns.map(&:name) - %w(id updated_at created_at)
+#  end
 end
