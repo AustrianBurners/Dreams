@@ -305,7 +305,7 @@ en:
     banner: "Don't miss out! Only %{time} left to %{action}"
     actions:
       submit_dream: submit art funds applications
-      safety_file:  to fill out the budget before voting will be opened!
+      safety_file:  to fill out the budget before voting will be opened!!
   time:
     am: am
     formats:
