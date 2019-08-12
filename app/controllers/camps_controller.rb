@@ -276,7 +276,8 @@ class CampsController < ApplicationController
   end
 
   def granted
-    @granted ||= [params[:grants].to_i, @camp.maxbudget - @camp.grants_received].min
+    #@granted ||= [params[:grants].to_i, @camp.maxbudget - @camp.grants_received].min
+    @granted ||= params[:grants].to_i
   end
 
   def failure_path
