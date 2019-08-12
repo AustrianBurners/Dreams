@@ -48,8 +48,10 @@ class CampsController < ApplicationController
   def update_grants
     @camp.grants.build(user: current_user, amount: granted)
     @camp.assign_attributes(
-      minfunded:   (@camp.grants_received + granted) >= @camp.minbudget,
-      fullyfunded: (@camp.grants_received + granted) >= @camp.maxbudget
+    #  minfunded:   (@camp.grants_received + granted) >= @camp.minbudget,
+    #  fullyfunded: (@camp.grants_received + granted) >= @camp.maxbudget
+      minfunded:   false,
+      fullyfunded: false
     )
 
     if @camp.save
