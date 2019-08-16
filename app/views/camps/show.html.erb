@@ -83,6 +83,7 @@
                                     </div>
                                 <% end %>
                                 <!-- If user grants are > 0, allow user to asign them -->
+                                <% if app_setting("granting") %>
                                 <% if @camp.grantingtoggle %>
                                     <%# <% if current_user && current_user.grants? && current_user.grants > 0 && !@camp.fullyfunded %>
                                     <% if current_user && current_user.grants? && current_user.grants > 0 %>
@@ -91,6 +92,7 @@
                                           <%= t(:i_gift_thee_grants) %>
                                         </button>
                                     <% end %>
+                                <% end %>
                                 <% end %>
 
                                 <!-- Only if never got grants and not opened for granting -->
