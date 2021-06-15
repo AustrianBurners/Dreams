@@ -25,9 +25,9 @@ en:
   private: Private
   humans_credit_html: "The Dreams Platform started at Urban Burn, got subsumed by The Borderland and was then used for events all over the place. It has been heavily improved by our lovely team of Isreali burner devs. <br> Here are the humans who made the dreams platform possible (Refresh the page, Swipe to shuffle, Or use the arrow keys)"
   welcome_guest_title: Welcome to our Dreams
-  welcome_guest_text_html: "Hey friend! Welcome to the virtual drawing board of <b>Schloss Schönburn.</b> This is the place where we prototype the projects we'll realise during the week in the castle. If you're looking for the old dreams from 2018, they're <a href='http://austriandreamsarchive.herokuapp.com/'>safe and sound here</a>"
+  welcome_guest_text_html: "Hey friend! Welcome to the virtual drawing board of <b>Schloss Schönburn.</b> This is the place where we prototype the projects we'll realise during the week in the castle."
   welcome_user_title: "These are your Dreams, baby!"
-  welcome_user_text_html: "Dreams is the virtual drawing board of Schloss Schönburn. This is the place where we prototype, promote and collaborate on the projects we'll realise during the week in the castle. Have a look around or create a dream of your own! If you're looking for the old dreams from 2018, they're <a href='http://austriandreamsarchive.herokuapp.com/'>safe and sound here</a>"
+  welcome_user_text_html: "Dreams is the virtual drawing board of Schloss Schönburn. This is the place where we prototype, promote and collaborate on the projects we'll realise during the week in the castle."
   header_faq_link: "Have you read the FAQ?"
   footer_left_html: "Schloss Schönburn is a participatory arts gathering where we explore the space between dream and reality. It is an empty container, open to your initiative. It is an invitation to play, to reflect, and to engage."
   footer_right_html: Schloss Schönburn
@@ -96,7 +96,7 @@ en:
   form_click_to_edit_html: <a>Click to edit</a>
 
   form_safety_head: Safety Portfolio
-  form_safety_head_description: "Safety Portfolio and placement in the castle must be completed before June 5, 2019."
+  form_safety_head_description: "Safety Portfolio and placement in the castle must be completed one month before the event."
   form_heavy_equip: Request for Mechanical Engineering Equipment - MEE
   form_is_heavey_equip_needed: "Does the construction of the art installation require the use of any MEE?"
   form_heavy_equip_desc: Attention! Coordination of needs will be performed privately with the art department.
@@ -165,7 +165,6 @@ en:
 
   form_add_new_safety_item: Add safety item
   form_remove_safety_item: Remove safety item
-  form_budgetplan_label: Budget overview
   budget_label: Budget
   budget_description_label: Description
   budget_amount_label: Amount
