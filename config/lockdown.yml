@@ -2,7 +2,6 @@ common: &common
   submit_dream: 2021-08-10t00:00:00+02:00
   safety_file: 2021-08-10t12:00:00+02:00
 
-
 development:
   <<: *common
 
